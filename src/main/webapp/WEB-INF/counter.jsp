@@ -10,7 +10,9 @@
 <body>
  YOU HAVE VISITED THIS SERVER THIS MANY TIMES: <c:out value="${yee}"/>
 
-<a href="/">Test Another visit</a>
+ <h3><c:out value="${key_msg}"/></h3>
+ <a href="/">Test Another visit</a>
+ <a href="/reset-counter">reset counter</a>
 
 </body>
 </html>
